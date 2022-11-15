@@ -1,0 +1,62 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 640px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.video-container {
+  max-width: 640px;
+  max-height: 360px;
+  aspect-ratio: 16 / 9;
+}
+
+mux-player {
+  --seek-live-button: none;
+  --seek-backward-button: none;
+  --seek-forward-button: none;
+  --mute-button: none;
+  --captions-button: none;
+  --airplay-button: none;
+  --pip-button: none;
+  --cast-button: none;
+  --playback-rate-button: none;
+  --volume-range: none;
+}
+
+button {
+  text-align: center;
+  padding: 20px 60px;
+  border: transparent;
+  border-radius: 20px;
+  background-color: #4167d9;
+  color: #fff;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: #527af3;
+}
+
+audio {
+  margin: 20px 0;
+  width: 100%;
+  height: 30px;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #d6d6d6;
+}
+
+audio::-webkit-media-controls-current-time-display {
+  display: none;
+}
+
+audio::-webkit-media-controls-timeline {
+  display: none;
+}

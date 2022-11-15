@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mux Player Test</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@mux/mux-player"></script>
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Mux Video Player</h1>
+      <div class="video-container">
+        <mux-player
+          nohotkeys
+          stream-type="on-demand"
+          playback-id="Y4fAGAjXkECyGp00bHI5Q7d7lQXTa3fI4orj3SdxWuCk"
+          metadata-video-title="Test VOD"
+          metadata-viewer-user-id="user-id-005"
+          placeholder="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.iSAyzfNYI44ikjPN7zgK-QHaEK%26pid%3DApi&f=1&ipt=77bc5270f441f851c3338361a9ffc60fb6f0f299e842436dab843dd6757ee2fd&ipo=images"
+          autoplay
+          loop></mux-player>
+      </div>
+      <div class="audio-container">
+        <audio id="player" playsinline controls autoplay type="audio/ogg"></audio>
+      </div>
+      <button>Next Video</button>
+    </div>
+
+    <!--  -->
+    <script src="./src/index.js"></script>
+    <script src="./src/audio.js"></script>
+  </body>
+</html>
