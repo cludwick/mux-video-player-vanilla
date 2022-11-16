@@ -16,6 +16,8 @@ body {
 }
 
 mux-player {
+  height: 360px;
+  width: 640px;
   --seek-live-button: none;
   --seek-backward-button: none;
   --seek-forward-button: none;
