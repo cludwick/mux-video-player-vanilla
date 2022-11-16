@@ -4,19 +4,19 @@ const button = document.querySelector('button');
 const videos = [
   {
     lot: 1,
-    playbackId: 'lyazvkjU2r5018u00gNm1JwZ5cubp5JPT5jfUMQxkO00D4',
+    playbackId: 'Pvb55ZXwoRN3v97i2FFRlSJC3Phy0200XI29OT2g2LlV00',
   },
   {
     lot: 2,
-    playbackId: 'd01sumCEZUWfx4p9dItWkURbGckImR8Plc02YwYGKExVo',
+    playbackId: 'EbPelUaMoIozjShigS00stkBS1kPsNuNegfxBUoYSoB00',
   },
   {
     lot: 4,
-    playbackId: 'OTtQJV2vseRf02MF6Z7LlVQzeRYPcogUpH3HRdfBnsxE',
+    playbackId: 'Fl9YmipgmyJqNgpoPxf02x6lTN00024ZEgsTXYrMfuUqcQ',
   },
   {
     lot: 5,
-    playbackId: 'Y4fAGAjXkECyGp00bHI5Q7d7lQXTa3fI4orj3SdxWuCk',
+    playbackId: 'lf27q02o9gBCYKToQKjk2etWiijYlH800Ai93nD8P7Jww',
   },
 ];
 
