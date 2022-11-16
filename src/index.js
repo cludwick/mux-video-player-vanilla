@@ -22,8 +22,6 @@ const videos = [
 
 let videoId = videos[0].playbackId;
 
-// const placeholder =
-
 let current = 0;
 let next = current < videos.length - 1 ? current + 1 : 0;
 let prev = current > 0 ? current - 1 : videos.length - 1;
