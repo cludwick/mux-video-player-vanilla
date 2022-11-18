@@ -10,6 +10,8 @@ body {
   flex-direction: column;
 }
 
+/* Mux VOD Player */
+
 .video-container {
   max-width: 640px;
   max-height: 360px;
@@ -44,6 +46,8 @@ button {
 button:hover {
   background-color: #527af3;
 }
+
+/* Dolby.io Audio Player */
 
 audio {
   margin: 20px 0;
