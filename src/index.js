@@ -4,22 +4,23 @@ const button = document.querySelector('button');
 const videos = [
   {
     lot: 1,
-    playbackId: 'qWJ01mJwTQmHpem2Rh00iqfIIQxq4Yzdyclq02p015WJgys',
+    playbackId: 'QCmMlpRAKewTHrI9011UB4BJ15VGSUrmUlbHPvboL2wI',
   },
   {
     lot: 2,
-    playbackId: '0000JO7B8iwBy7s3njL75D00HsLMq9fgFHw72i6EkiqIdc',
+    playbackId: 'H2M01600h5WTAEDGAhhmE6NEYbFIO2aL01U3cAilN02ETjA',
   },
   {
     lot: 4,
-    playbackId: 'a02S01EJmCu0000cB6LmYOZ1n1368SEN41CGjK9B4gcKVOo',
+    playbackId: 'f8NyjzpNtxmUfI00025ijL5zvtWIuqpm4wwN3z34vcFsU',
   },
   {
     lot: 5,
-    playbackId: 'fYNeJOkGGoczM00lYIbqDXn1FAwrCOvTUoRClnL3fONg',
+    playbackId: 'fsDxyufPoEmnUMtgzfYBJfMosoncH1Gxim0002nqVq01Rs',
   },
 ];
 
+//* Video Carousel
 let videoId = videos[0].playbackId;
 
 let current = 0;
@@ -44,5 +45,4 @@ updateVideo();
 
 button.addEventListener('click', () => goToNext());
 
-// using setAttribute
 muxPlayer.setAttribute('playback-id', videoId);
